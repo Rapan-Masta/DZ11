@@ -10,7 +10,7 @@ let userDataDepozit = prompt(
 );
 
 let profit;
-profit = ((userSum * 20) / 100) * userDataDepozit;
+profit = ((userSum * 20) / 100 / 12) * userDataDepozit;
 
 alert(
   `Шановний ${userName}, 
